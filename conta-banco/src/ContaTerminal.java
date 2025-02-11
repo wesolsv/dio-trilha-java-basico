@@ -32,6 +32,7 @@ public class ContaTerminal {
                 }
             }
         }
+        scanner.close();
     }
 
     static boolean validarInformacoes(int numero, String agencia, String nomeCliente, double saldo) {
